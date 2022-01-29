@@ -1,0 +1,190 @@
+body{
+    overflow-x: hidden;
+}
+.contact{
+    text-align: right;
+}
+.contact p {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.contact-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.contact-nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 2px solid black;
+}
+.contact-nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar{
+    border-bottom: 3px solid gray;
+}
+.nav-bg{
+    background-color: rgb(36, 36, 179);
+}
+
+.logo{
+    font-size: 25px;
+}
+.versity-about{
+    text-align: center;
+    background-color: rgb(113, 160, 113);
+    color: white;
+    padding-top: 12px;
+    padding-bottom:7px;
+    transition: 0.5s;
+}
+.versity-about:hover{
+    background-color: rgb(11, 116, 11);
+}
+.vc-card{
+    background-color: rgb(113, 160, 113);
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    transition: 0.5s;
+}
+.vc-card:hover{
+    background-color: rgb(11, 116, 11);
+}
+.vc-card img {
+    border-radius: 100%;
+    width: 40%;
+}
+.click-here-button{
+    border: none;
+    background-color: #e74747;
+    color: white;
+    width: 300px;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 50px;
+}
+.notice{
+    background-color: #f0f9ff;
+ 
+}
+.notice-bord{
+    border-bottom: 1px solid rgb(223, 217, 217);
+    padding-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.notice-bord small{
+    color: #035abc;
+}
+.notice-bord p{
+    color: #777;
+}
+.notice-button{
+    border: none;
+    background-color: #035abc;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.job-button{
+    border: none;
+    color: #035abc;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.view-all{
+    text-align: right;
+    margin-right: 15px;
+    font-weight: 600;
+    color: #035abc;
+}
+.faculties h3{
+    border-radius: 5px;
+    border-left: 1px solid rgb(235, 228, 228);
+    border-right: 1px solid rgb(235, 228, 228);
+    border-top: 3px solid gray;
+    border-bottom: 3px solid #035abc;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+.all-departments{
+    padding-top: 35px;
+    padding-left: 10px;
+    border-top: 4px solid #999;
+    border-left: 1px solid rgb(235, 228, 228);
+    border-right: 1px solid rgb(235, 228, 228);
+    border-bottom: 1px solid rgb(235, 228, 228);
+    border-radius: 5px;
+    height: 450px;
+    box-shadow: 4px 5px 5px gray;
+}
+.all-departments h5{
+    color: gray;
+}
+.all-departments p{
+    color: blue;
+    font-weight: 500;
+}
+
+.instututes p{
+    background-color: #f0f9ff;
+    padding: 30px 15px 30px 10px;
+    font-weight: 600;
+    border-top: 4px solid #999;
+    border-left: 1px solid rgb(235, 228, 228);
+    border-right: 1px solid rgb(235, 228, 228);
+    border-bottom: 1px solid rgb(235, 228, 228);
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px rgb(171, 200, 219);
+    height: 100px;
+    color: gray;
+}
+.article-card{
+    background-color: #f0f9ff;
+    height: 350px;
+    border: 1px solid rgb(235, 228, 228);
+}
+.article-card p{
+    color: blue;
+}
+.view-all h6{
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer{
+    background-color: #444;
+}
+
+.footer-link h6{
+    color: rgb(51, 51, 218);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.footer-link p{
+    padding-left: 15px;
+    color: white;
+}
+.icon{
+    font-size: 30px;
+    color: white;
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
